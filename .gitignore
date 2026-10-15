@@ -1,0 +1,18 @@
+# --- secrets / local credentials (NEVER commit) ---
+gateway_credentials.json
+*.env
+
+# --- generated local snapshots ---
+aafl_live_snapshot.json
+
+# --- heavy internal source workbooks ---
+*.xlsx
+*.xls
+
+# --- old MCP-version scratch files ---
+aafl_mrp_dashboard_LAST.py
+aafl_mrp_dashboard_LAST.md
+
+# --- python ---
+__pycache__/
+*.pyc
