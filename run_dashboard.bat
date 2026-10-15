@@ -42,7 +42,7 @@ echo [3/4] Pushing to GitHub...
 git push -u origin main
 if errorlevel 1 (
     echo.
-    echo  WARNING: git push failed (check credentials / remote).
+    echo  WARNING: git push failed - check credentials / remote.
 ) else (
     echo      pushed.
 )
